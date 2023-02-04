@@ -33,12 +33,12 @@ type linkedList struct {
 	short bool
 }
 
-func linkedListNewShort() Queue {
-	return Queue(new(linkedList).init(true))
+func linkedListNewShort() queue {
+	return queue(new(linkedList).init(true))
 }
 
-func linkedListNewLong() Queue {
-	return Queue(new(linkedList).init(false))
+func linkedListNewLong() queue {
+	return queue(new(linkedList).init(false))
 }
 
 func (l *linkedList) PushOrdered(v *vertices.Vertex) {
