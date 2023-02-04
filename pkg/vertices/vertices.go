@@ -1,3 +1,3 @@
 package vertices
 
-type Vertices []*Vertex
+type Vertices []Vertex
