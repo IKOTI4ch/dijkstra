@@ -9,7 +9,7 @@ type Graph struct {
 	Best            int64
 	VisitedTarget   bool
 	Vertices        vertices.Vertices // slice of all vertices available
-	visiting        Queue
+	visiting        queue
 	mapping         map[string]int
 	usingMap        bool
 	highestMapIndex int
